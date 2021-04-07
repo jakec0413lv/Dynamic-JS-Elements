@@ -1,0 +1,41 @@
+#menu-container{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border: 2px black solid;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#button-1{
+    display: none;
+    position: relative;
+    left: 200px;
+}
+
+#button-2{
+    display: none;
+    position: relative;
+    left: 100px;
+}
+
+#button-3{
+    display: none;
+    position: relative;
+    right: 100px;
+}
+
+#button-4{
+    display: none;
+    position: relative;
+    right: 200px;
+}
